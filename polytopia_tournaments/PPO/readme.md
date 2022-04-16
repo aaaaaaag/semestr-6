@@ -10,18 +10,62 @@ competitive interest to the players of polytopia
 
 ## Description of the subject area
 
-If we talk about technologies, then in this case the following will be used:
-<ol>
-    <li>Programming language - <strong>C++</strong> </li>
-    <li>Framework for creating a user interface - <strong>Qt</strong></li>
-    <li>Databases - <strong>Postgresql</strong></li>
-</ol>
+Building a tournament grid specifically for a step-by-step strategy.
+The user creates a tournament after which other users join as participants.
+In this area, it is very important to correctly create a tournament grid
+based on the number of players and their experience.
+You also need to make it informative enough
 
 ## Analysis of similar solutions
 
-    Will be soon
+<table>
+  <tr>
+    <th> Name </th>
+    <th> Many types of tournament grids </th>
+    <th> Invites to tournament using links </th>
+    <th> Telegram bot </th>
+    <th> Rating battles </th>
+    <th> Grids for concrete games </th>
+  </tr>
+  <tr>
+    <th> Challonge </th>
+    <th> + </th>
+    <th> + </th>
+    <th> - </th>
+    <th> + </th>
+    <th> + </th>
+  </tr>
+  <tr>
+    <th> Goodgame </th>
+    <th> + </th>
+    <th> + </th>
+    <th> - </th>
+    <th> - </th>
+    <th> + </th>
+  </tr>
+  <tr>
+    <th> Scorecounter </th>
+    <th> + </th>
+    <th> - </th>
+    <th> - </th>
+    <th> - </th>
+    <th> - </th>
+  </tr>
+</table>
 
 ## Justification of the expediency and relevance of the project
 This project is relevant because it will be specialized for the game Battle of Politopia
 and have features specialized for tournaments in this game
+
+## Use-case diagram
+
+![](./use-case.drawio.png)
+
+## ER diagram
+
+![](./ER_Diagram_Updated.png)
+
+## Architecture characteristics
+
+NodeJS, Typescript, React
 
